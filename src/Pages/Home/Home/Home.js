@@ -1,9 +1,13 @@
 import React from 'react';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is about</h2>
+            {/* <div>
+                <img src="https://i.ibb.co/8rHBsxS/hotel-bg.jpg" alt="" />
+            </div> */}
+            <Services/>
         </div>
     );
 };

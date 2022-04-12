@@ -1,13 +1,12 @@
 import React from 'react';
-import './Login.css';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Login = () => {
+const SignUp = () => {
     return (
         <div className='form-container'>
             <div>
-                <h2 className='form-title'>Login</h2>
+                <h2 className='form-title'>Sign Up</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label className='ms-1'>Email address</Form.Label>
@@ -18,12 +17,16 @@ const Login = () => {
                         <Form.Label className='ms-1'>Password</Form.Label>
                         <Form.Control className='form-submit' type="password" placeholder="Password" />
                     </Form.Group>
-                    <Button variant="primary" type="submit"  className='form-submit mb-2'>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label className='ms-1'>Confirm Password</Form.Label>
+                        <Form.Control className='form-submit' type="password" placeholder="Confirm Password" />
+                    </Form.Group>
+                    <Button variant="primary" type="submit" className='form-submit mb-2'>
                         Login
                     </Button>
                 </Form>
                 <p className='link'>
-                    New to Hotel-Booking? <Link className='form-link' to="/signup">Create an account</Link>
+                    Already Have an account? <Link className='form-link' to="/login">Login</Link>
                 </p>
                 <div className='or-line'>
                     <div></div>
@@ -39,4 +42,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignUp;
