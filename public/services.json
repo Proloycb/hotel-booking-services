@@ -1,0 +1,44 @@
+[
+    {
+        "id": "625510b903d8a9d32dab2777",
+        "image": "https://i.ibb.co/k55xb9b/hotel-suiten-1.png",
+        "name": "SUITEN",
+        "price": 282,
+        "description": "The hotel summer suites (see example photos) usually have a bedroom and a separate living room. In some suites, our guests can look forward to the latest box spring beds."
+    },
+    {
+        "id": "625510b91a35612b0d43985f",
+        "image": "https://i.ibb.co/M887m3b/hotel-double-comport-1.png",
+        "name": "DOUBLE ROOM COMFORT",
+        "price": 195,
+        "description": "Our double room comfort is approx. 20m² large. The rooms are functional but nevertheless cozy and charmingly furnished rooms. All rooms have a balcony with stunning mountain views."
+    },
+    {
+        "id": "625510b92c66f38955c063b1",
+        "image": "https://i.ibb.co/PtSxRqt/hotel-superior-1.png",
+        "name": "DOUBLE ROOM SUPERIOR",
+        "price": 206,
+        "description": "Modern-alpine or new country house-style superior double rooms? Please tell us your taste and we will do our utmost to provide you your favorite room. Whoever first books first chooses"
+    },
+    {
+        "id": "625510b9416b9ce7eabb9849",
+        "image": "https://i.ibb.co/PFLvTFT/hotel-standard-1.png",
+        "name": "STANDARD DOUBLE ROOM",
+        "price": 272,
+        "description": "Our standard double rooms are about 18-20m². The rooms are functionally furnished and have a flat screen TV, telephone, radio, minibar and safe."
+    },
+    {
+        "id": "625510b9f2dc213dfc674b00",
+        "image": "https://i.ibb.co/2y76ZH5/hotel-family-1.png",
+        "name": "FAMILY ROOM",
+        "price": 231,
+        "description": "Size: 30-35m² - play-, living- and sleeping room for a whole family. Your children will be accommodated in a separate room with a bunk bed or two beds next to each other. For more space we will be happy to show you our family suites."
+    },
+    {
+        "id": "625510b9f87a44c3f6f54d1e",
+        "image": "https://i.ibb.co/282DfyX/hotel-single-1.png",
+        "name": "SINGLE ROOM",
+        "price": 235,
+        "description": "Single travelers, accompanying young people, the grandpa or the aunt feel comfortable in the cozy ambience of our beautiful single rooms."
+    }
+]
